@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{0009B791-952D-E8A3-0CA7-187AF7DDB9AD}") = "AloneInTheDark", "Assembly-CSharp.csproj", "{F3A1511E-DEA4-5A15-C138-B74FBA29013B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3A1511E-DEA4-5A15-C138-B74FBA29013B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3A1511E-DEA4-5A15-C138-B74FBA29013B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3A1511E-DEA4-5A15-C138-B74FBA29013B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3A1511E-DEA4-5A15-C138-B74FBA29013B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

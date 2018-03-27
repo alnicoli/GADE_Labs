@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{E4203F4F-AA3E-9007-1ED4-B800CEE4E023}") = "GaDe_03b_ShootEmUp", "Assembly-CSharp.csproj", "{B88CA03F-95F5-4FFB-BB62-B5D34495D27B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B88CA03F-95F5-4FFB-BB62-B5D34495D27B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B88CA03F-95F5-4FFB-BB62-B5D34495D27B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B88CA03F-95F5-4FFB-BB62-B5D34495D27B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B88CA03F-95F5-4FFB-BB62-B5D34495D27B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
