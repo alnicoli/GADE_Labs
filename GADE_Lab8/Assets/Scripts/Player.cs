@@ -4,23 +4,23 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
 
-	public GameObject activateOnWon; 
+	public GameObject activateOnWon;
+	public AudioClip scream;
 
 	// Use this for initialization
 	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-
-
-		
+		GetComponent<AudioSource> ().playOnAwake = false;
+		GetComponent<AudioSource> ().clip = scream;
 	}
 
 	void OnTriggerEnter(Collider other) {
-
-			Application.LoadLevel(0);
-
+		GetComponent<AudioSource> ().Play ();
+		StartCoroutine("Restart");
+	}
+	
+	IEnumerator Restart()
+	{
+		yield return new WaitForSeconds(2);
+		Application.LoadLevel(0);
 	}
 }
